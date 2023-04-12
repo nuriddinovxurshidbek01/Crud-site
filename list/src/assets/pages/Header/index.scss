@@ -1,0 +1,17 @@
+.companents {
+    width: 100%;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 15px;
+    }
+    &__search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_img {
+            margin-left: 10px;
+        }
+    }
+}

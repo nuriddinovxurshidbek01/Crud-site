@@ -1,0 +1,64 @@
+.asaed {
+    width: 280px;
+    height: 1fr;
+    background-color: #F2EAE1;
+    .saidbar__title {
+        padding-top: 11px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+    .saidbar__info {
+        text-align: center;
+        width: 200px;
+        margin: 18px auto;
+        &_img {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 141px;
+            margin: 15px auto;
+        }
+        &_name {
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 21px;
+            color: #000000;
+        }
+        &_adminLink {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FEAF00;
+        }
+    }
+    .saidbar__page {
+        margin-top: 35px;
+        &_link {
+            background-color: #F2EAE1;
+            border: none;
+            margin: 4px auto;
+            width: 190px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 5px 0;
+            &--img {
+                margin-left: 25px;
+            }
+            &--text {
+                margin-top: 5px;
+                margin-left: 15px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+            }
+        }
+        &_link:hover {
+            background-color: #FEAF00;
+            border-radius: 8px;
+        }
+    }
+}
